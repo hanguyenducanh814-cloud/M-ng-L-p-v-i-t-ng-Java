@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class DeleteElement {
     public static void main(String[] args) {
-        int[] arr = {10, 4, 6, 7, 8, 6, 0, 0, 0, 0};
+        int[] arr = {10, 4, 6, 7, 8, 6, 0, 5};
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Nhập phần tử cần xoá: ");
