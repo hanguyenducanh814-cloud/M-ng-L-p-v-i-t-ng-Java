@@ -5,11 +5,12 @@ public class FindValueMax {
         int[] arr = new int[5];
         System.out.println("Nhập 5 phần tử cho mảng:");
         for (int i = 0; i < arr.length; i++) {
-            System.out.print("Phần tử " + i + ": ");
+            System.out.print("Phần tử " + (i+1) + ": ");
             arr[i] = scanner.nextInt();
         }
         int max = findValueMax(arr);
         System.out.println("Giá trị lớn nhất trong mảng là: " + max);
+        scanner.close();
     }
     public static int findValueMax(int[] array) {
         int max = array[0];
